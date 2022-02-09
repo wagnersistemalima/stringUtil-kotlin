@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="constant.DateConverterUtilTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2022-02-09T20:49:54" hostname="ZUP-2470" time="0.03">
+  <properties/>
+  <testcase name="should convert a date string in the pattern yyyy-MM-dd HH-mmZ to LocalDateTime in the format yyyy-MM-dd HH-mm-ss()" classname="constant.DateConverterUtilTest" time="0.022"/>
+  <testcase name="must convert a date string in iso 8601 standard to LocalDateTime in yyyy-MM-dd HH-mm-ss format()" classname="constant.DateConverterUtilTest" time="0.001"/>
+  <testcase name="must convert a date string in the pattern yyyy-MM-dd HH-mm-ss into LocalDateTime in the format yyyy-MM-dd HH-mm-ss()" classname="constant.DateConverterUtilTest" time="0.001"/>
+  <testcase name="must convert a date string in the default yyyy-MM-dd HH-mm-ss-SSS into LocalDateTime in the format yyyy-MM-dd HH-mm-ss()" classname="constant.DateConverterUtilTest" time="0.0"/>
+  <testcase name="must convert a date string in the pattern yyyy-MM-dd HH-mm-ssZ into LocalDateTime in the format yyyy-MM-dd HH-mm-ss()" classname="constant.DateConverterUtilTest" time="0.0"/>
+  <testcase name="must convert a date string in the default yyyy-MM-dd HH-mm-ss-SSS-time zone to LocalDateTime in the format yyyy-MM-dd HH-mm-ss()" classname="constant.DateConverterUtilTest" time="0.0"/>
+  <testcase name="deve formatar a data, quando receber uma data nesse formato yyyy-MM-dd HH-mm para este yyyy-MM-dd HH-mm-ss()" classname="constant.DateConverterUtilTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
